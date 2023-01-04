@@ -13,7 +13,8 @@ Technogy:
   
 Usage:
   Landing page requires you to set two parameters (your current country & your desired country).
-  your desired country is the current you wish to visit.
+  Your desired country is the current you wish to visit.
+  On success, you will be ushered into your desired country.
   
 Who can contribute:
   Contribution is open to coders and non-coders.
