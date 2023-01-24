@@ -48,12 +48,17 @@ html, body {
     font-weight: 700;
     margin-bottom: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding-left:100px;
     padding-right:100px;
     text-align: center;
 }
 
+.waka--intro{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
 
 .select--container{
     box-shadow: 2px 3px 3px;
@@ -108,7 +113,7 @@ html, body {
     background-color: aqua;
 }
 .portal--image{
-    width: 100%;
+    width: 300px;
     aspect-ratio: 2;
     border-radius: 9px;
     box-shadow: 3px 3px 3px;

@@ -43,7 +43,7 @@ export default function Countries(){
 
                 
                  <div className='form--element' >
-                            <div>Waka is your favourite tour guide!</div>
+                            <div className='waka--intro'>Waka is your favourite tour guide!</div>
                             <form >
                             <label htmlFor='currentCountry'> Select Current Country 
                             </label>
