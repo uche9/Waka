@@ -84,10 +84,12 @@ export default function Cities({desiredCountry}){
 
 
                     
-                    {(cityIndex<cityNames.length-1) && 
+                    {(cityIndex===0 || cityIndex<cityNames.length-1) && 
                     <span   id='play--pause--skip'>
-                     <i className='control' onClick={()=>{ setCityIndex(cityIndex+1)}}></i>
-                    </span>}
+                    
+                     <img className='control' src={require('../buttons/skipforward.png')} alt='portal control' onClick={()=>{setCityIndex(cityIndex+1)}} />
+                    </span>
+                    }
                     
                    
                 
