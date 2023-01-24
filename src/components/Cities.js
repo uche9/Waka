@@ -1,6 +1,6 @@
 import {useState, useEffect} from'react'
 import countryData from './countryData'
-
+import Nav from './Navigator'
 
 export default function Cities({desiredCountry}){
   
@@ -57,8 +57,9 @@ export default function Cities({desiredCountry}){
      
   return (
 
-
+           
     <div className='city--container'>
+         <Nav />
          <h3> {cityNames[cityIndex] } </h3><h5>{desiredCountry}</h5>
          <div className='portal--image--base'> 
          <img className='portal--image'  src={require(`../data/${desiredCountry}/${cityNames[cityIndex] }/${cityImages[cityIndex] }${count}.jpg`)} alt='pics here' />

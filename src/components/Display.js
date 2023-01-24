@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import countryData from './countryData'
 import MyDate from './MyDate'
 import Cities from './Cities'
@@ -7,6 +7,16 @@ import Cities from './Cities'
 
 export default function Display(props){
     const {currentCountry,desiredCountry}=props.country ;
+
+    //Set up autoplay
+   
+    useEffect(()=>{
+        setTimeout(()=>{
+            document.getElementById('audio--player').autoplay=true
+        },1000)  
+    },[])
+   
+    
 
     //Generate List of Countries
     let  countryList=countryData.map(el=>{
@@ -45,7 +55,7 @@ export default function Display(props){
                                 <div className='flag--anthem'>
                                     <img className=''  src={require(`../data/${desiredCountry}/flag.png`)} alt='pics here' />
                                     <div>click <b>play button</b> to hear <b>{desiredCountry}</b>'s national anthem</div>
-                                    <audio className='audio--player'src={require(`../data/${desiredCountry}/anthem.mp3`)}  type='audio/mp3'  controls loop autoplay />
+                                    <audio id='audio--player' className='audio--player'src={require(`../data/${desiredCountry}/anthem.mp3`)}  type='audio/mp3'  controls loop autoplay />
                                </div>
                                <div className='tour-portal'>
                                     
