@@ -108,7 +108,7 @@ html, body {
     background-color: aqua;
 }
 .portal--image{
-    width: 600px;
+    width: 100%;
     aspect-ratio: 2;
     border-radius: 9px;
     box-shadow: 3px 3px 3px;
