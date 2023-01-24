@@ -8,7 +8,7 @@ export default function Cities({desiredCountry}){
      let  countryList=countryData.map(el=>{
         return el.country
     })
-
+      
     //Generate array of cities in desired country
      let countryIndex=countryList.indexOf(desiredCountry)
      let cityNames=countryData[countryIndex].cities.map(el=>el.name)
