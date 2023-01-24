@@ -1,5 +1,7 @@
 import {useState, useEffect} from'react'
 import countryData from './countryData'
+
+
 export default function Cities({desiredCountry}){
   
      //Extract country names from countryData array of objects
@@ -63,20 +65,28 @@ export default function Cities({desiredCountry}){
          </div>
            A journey through {cityNames.length} major cities in {desiredCountry}
           <div className='portal--image--controls'> 
-                     
-                    
-                    
+     
                     {(cityIndex>0) && 
                     <span id='play--pause--skip'>
-                    <i className='fas fa-step-backward'onClick={()=>{setCityIndex(cityIndex-1)}}></i>
-                    </span>}
+                    <img className='control' src={require('../buttons/skipback.png')} alt='portal control' onClick={()=>{setCityIndex(cityIndex-1)}} />
+                  
+                    
+                    </span>
+                    }
                     <span id='play--pause--skip'>
-                       <i className={status?'fas fa-play':'fas fa-pause'}   onClick={play_pause_toggle}></i>
+  
+                       <img className='control' src={require(`../buttons/${status?'play':'pause'}.png`)} alt='portal control' onClick={play_pause_toggle}/>
+
                     </span>
                     
+
+                   
+
+
+                    
                     {(cityIndex<cityNames.length-1) && 
-                    <span id='play--pause--skip'>
-                     <i className='fas fa-step-forward' onClick={()=>{ setCityIndex(cityIndex+1)}}></i>
+                    <span   id='play--pause--skip'>
+                     <i className='control' onClick={()=>{ setCityIndex(cityIndex+1)}}></i>
                     </span>}
                     
                    
