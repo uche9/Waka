@@ -2,6 +2,9 @@
 *{
     margin:0
 }
+html, body {
+    overflow-x:hidden
+}
 .header--container{
     height: 50px;
     background-color: white;
