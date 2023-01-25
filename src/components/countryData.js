@@ -30,19 +30,19 @@ const countryData =[
         GMT: '0',
         anthem:'',
         flag:'',
-        currency:'',
+        currency:'Cedi',
         cities:[
                {
                    name:'Accra',
                    image:'accra',
                    description:'',
-                   imageqty:3,
+                   imageqty:5,
                },
                {
                    name:'Kumasi',
                    image:'kumasi',
                    description:'',
-                   imageqty:3,
+                   imageqty:5,
                }
            ],
         
