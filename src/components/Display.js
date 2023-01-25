@@ -51,9 +51,12 @@ export default function Display(props){
                                 </div>
                         </div>
                </div>
-                      <div className='tour--container'>
+               
+                             <div className='tour--container'>
+                               
                                 <div className='flag--anthem'>
-                                    <img className=''  src={require(`../data/${desiredCountry}/flag.png`)} alt='pics here' />
+                                Welcome to <b> {desiredCountry} </b>
+                                    <img className='map--flag'  src={require(`../data/${desiredCountry}/mapflag.png`)} alt='pics here' />
                                     <div>click <b>play button</b> to hear <b>{desiredCountry}</b>'s national anthem</div>
                                     <audio id='audio--player' className='audio--player'src={require(`../data/${desiredCountry}/anthem.mp3`)}  type='audio/mp3'  controls loop autoplay />
                                </div>

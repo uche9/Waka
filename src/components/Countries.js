@@ -42,7 +42,7 @@ export default function Countries(){
         <div >
 
                 
-                 <div className='form--element' >
+                 <div className='selectbox--container' >
                             <div className='waka--intro'>Waka is your favourite tour guide!</div>
                             <form >
                             <label htmlFor='currentCountry'> Select Current Country 
@@ -66,8 +66,9 @@ export default function Countries(){
                                     
                                 </select>
                                 
-                            
+                                  
                         </form>
+                        <div className='waka--intro'>Waka is your favourite tour guide!</div>
                  </div>
             {!(formData.displayCurrent && formData.displayDesired) && 
             
