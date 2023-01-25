@@ -111,11 +111,12 @@ html, body {
     border-radius: 9px;
     box-shadow: 3px;
     background-color: aqua;
+    margin: 5px
 }
 .portal--image{
-    margin:3px;
-    width: 300px;
-    height: 185px;
+    margin:5px;
+    width: 98%;
+    height: 220px;
     aspect-ratio: 2;
     border-radius: 9px;
     box-shadow: 3px 3px 3px;
@@ -171,3 +172,55 @@ html, body {
     height:25px;
     border-radius: 50%;
 }
+
+.container--niche--tabs{
+    
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:auto;
+    width:auto;
+    margin: 1px;
+    background-color:#fff;
+    flex-wrap: wrap;
+    box-shadow: 2px 3px 3px ;
+    margin-bottom: 6px;
+    
+
+}
+
+.niche--tabs{
+    background-color:bisque;
+    font-size: 12px;
+    width: 100px;
+    background-color: rgb(243, 236, 236);
+    height:32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    margin: 3px;
+    font-weight: 800;
+    padding:2px 10px;
+    box-shadow:2px 3px 3px;
+    border-radius:7px ; 
+    text-decoration: none;
+    }
+
+    .niche--tabs:hover{
+        background-color:bisque;
+        font-size: 12px;
+        width: 100px;
+        height:28px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 3px;
+        font-weight: 800;
+        padding:2px 10px;
+        box-shadow:1px 1px 1px;
+        border-radius:7px ; 
+        transition:300ms;
+        }

@@ -61,10 +61,11 @@ export default function Cities({desiredCountry}){
     <div className='city--container'>
          <Nav />
          <h3> {cityNames[cityIndex] } </h3><h5>{desiredCountry}</h5>
+         A journey through {cityNames.length} major cities in {desiredCountry}
          <div className='portal--image--base'> 
          <img className='portal--image'  src={require(`../data/${desiredCountry}/${cityNames[cityIndex] }/${cityImages[cityIndex] }${count}.jpg`)} alt='pics here' />
          </div>
-           A journey through {cityNames.length} major cities in {desiredCountry}
+           
           <div className='portal--image--controls'> 
      
                     {(cityIndex>0) && 
