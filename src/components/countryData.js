@@ -5,7 +5,7 @@ const countryData =[
      GMT: '+1',
      anthem:'',
      flag:'',
-     currency:'Naira',
+     currency:'Naira (NGN)',
      cities:[
                 {
                     name:'Lagos',
@@ -91,6 +91,30 @@ const countryData =[
                {
                    name:'Alexandria',
                    image:'alexandria',
+                   description:'',
+                   imageqty:5,
+               }
+           ],
+        
+       },
+
+       {
+        country:'USA',
+        description: '',
+        GMT: '-5',
+        anthem:'',
+        flag:'',
+        currency:'Dollar (USD)',
+        cities:[
+               {
+                name:'Washington_DC',
+                image:'washingtondc',
+                   description:'',
+                   imageqty:5,
+               },
+               {
+                   name:'NewYork',
+                   image:'newyork',
                    description:'',
                    imageqty:5,
                }
