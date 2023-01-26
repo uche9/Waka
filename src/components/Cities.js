@@ -63,7 +63,7 @@ export default function Cities({desiredCountry}){
          <h3> {cityNames[cityIndex] } </h3><h5>{desiredCountry}</h5>
          A journey through {cityNames.length} major cities in {desiredCountry}
          <div className='portal--image--base'> 
-         <img className='portal--image'  src={require(`../data/${desiredCountry}/${cityNames[cityIndex] }/${cityImages[cityIndex] }${count}.jpg`)} alt='pics here' />
+         <img className='portal--image'  src={require(`../data/${desiredCountry}/${cityNames[cityIndex] }/${cityImages[cityIndex] }${count}.png`)} alt='pics here' />
          </div>
            
           <div className='portal--image--controls'> 

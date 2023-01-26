@@ -20,7 +20,7 @@ const countryData =[
                     imageqty:5,
                 },
            
-        ],
+        ]
      
     },
 
@@ -41,6 +41,56 @@ const countryData =[
                {
                    name:'Kumasi',
                    image:'kumasi',
+                   description:'',
+                   imageqty:5,
+               }
+           ]
+        
+       },
+       
+
+    {
+        country:'South_Africa',
+        description: '',
+        GMT: '+2',
+        anthem:'',
+        flag:'',
+        currency:'Rand',
+        cities:[
+               {
+                   name:'Cape_Town',
+                   image:'capetown',
+                   description:'',
+                   imageqty:5,
+               },
+               {
+                   name:'Johanneseburg',
+                   image:'johanneseburg',
+                   description:'',
+                   imageqty:5,
+               }
+           ]
+        
+       },
+
+       
+       {
+        country:'Egypt',
+        description: '',
+        GMT: '+2',
+        anthem:'',
+        flag:'',
+        currency:'Egyptian Pound (EGP)',
+        cities:[
+               {
+                   name:'Cairo',
+                   image:'cairo',
+                   description:'',
+                   imageqty:5,
+               },
+               {
+                   name:'Alexandria',
+                   image:'alexandria',
                    description:'',
                    imageqty:5,
                }
