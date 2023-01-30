@@ -114,7 +114,7 @@ html, body {
     flex-wrap: wrap;
     flex-direction: row; 
     align-items: center; 
-    background-image: url(../allflags_1.png);
+    
     background-repeat: ''
 }
 .portal--image--base{
