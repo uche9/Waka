@@ -72,7 +72,7 @@ export default function Countries(){
                  </div>
             {!(formData.displayCurrent && formData.displayDesired) && 
             
-             <div className='tour--appeal'> 
+             <div className='tour--appeal' > 
              Please select Current country and Desired country to begin tour...
              </div> }
             {(formData.displayCurrent && formData.displayDesired) && <Display country={formData} /> }

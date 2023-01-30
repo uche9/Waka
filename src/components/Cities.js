@@ -59,9 +59,10 @@ export default function Cities({desiredCountry}){
 
            
     <div className='city--container'>
-         <Nav />
-         <h3> {cityNames[cityIndex] } </h3><h5>{desiredCountry}</h5>
+         
          A journey through {cityNames.length} major cities in {desiredCountry}
+         <h3> {cityNames[cityIndex] } <span style={{fontSize:'12px'}}>{desiredCountry}</span></h3>
+        
          <div className='portal--image--base'> 
          <img className='portal--image'  src={require(`../data/${desiredCountry}/${cityNames[cityIndex] }/${cityImages[cityIndex] }${count}.png`)} alt='pics here' />
          </div>
